@@ -3,7 +3,7 @@ import React from "react";
 
 function NavBar() {
   return (
-    <div className="flex justify-between w-full pt-4 mb-5 px-5">
+    <div className="flex justify-between w-full pt-4 mb-5 ">
       {/* SEACRH */}
       <div className="hidden md:flex md:items-center ">
         <div className="flex gap-2 items-center border-[1px] border-black rounded-full p-3">

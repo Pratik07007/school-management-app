@@ -10,10 +10,10 @@ function Menu() {
           className="mt-6 px-1 text-center md:text-left font-light overflow-y-scroll "
           key={category.title}
         >
-          <span className="text-sm md:text-lg">{category.title}</span>
+          <span className="text-sm md:text-lg ">{category.title}</span>
           {category.items.map((item) => (
             <div
-              className="flex justify-center md:justify-start lg:justify-start gap-2 mt-3 w-full px-1 cursor-pointer"
+              className="md:hover:bg-purple-300 duration-300 rounded-3xl p-3 px-3  flex justify-center md:justify-start lg:justify-start gap-2 w-full  cursor-pointer"
               key={item.label}
             >
               <Image src={item?.icon} alt="" width={20} height={20}></Image>
