@@ -13,7 +13,7 @@ function Menu() {
           <span className="text-sm md:text-lg ">{category.title}</span>
           {category.items.map((item) => (
             <div
-              className="md:hover:bg-purple-300 duration-300 rounded-3xl p-3 px-3  flex justify-center md:justify-start lg:justify-start gap-2 w-full  cursor-pointer"
+              className="md:hover:bg-Purple duration-300 rounded-3xl p-3 px-3  flex justify-center md:justify-start lg:justify-start gap-2 w-full  cursor-pointer"
               key={item.label}
             >
               <Image src={item?.icon} alt="" width={20} height={20}></Image>
